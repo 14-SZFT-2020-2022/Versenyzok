@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Versenyzok.Objektumok
 {
@@ -11,14 +8,14 @@ namespace Versenyzok.Objektumok
         public string PilotaNeve { get; set; }
         public DateTime SzuletesiIdo { get; set; }
         public string Nemzetiseg { get; set; }
-        public int Rajtszam { get; set; }
+        public string Rajtszam { get; set; }
 
         public Pilota(string pilotaNeve, string szuletesiIdo, string nemzetiseg, string rajtszam)
         {
             this.PilotaNeve = pilotaNeve;
             this.SzuletesiIdo = DateTime.Parse(szuletesiIdo);
             this.Nemzetiseg = nemzetiseg;
-            this.Rajtszam = Int32.Parse(rajtszam);
+            this.Rajtszam = rajtszam;
         }
 
         static public List<Pilota> PilotaListaLetrehozas(List<string[]> lista)
