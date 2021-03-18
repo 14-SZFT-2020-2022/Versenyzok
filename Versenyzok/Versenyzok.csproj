@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feladatok\HarmadikFeladat.cs" />
+    <Compile Include="Feladatok\HatodikFeladat.cs" />
+    <Compile Include="Feladatok\HetedikFeladat.cs" />
+    <Compile Include="Feladatok\Megoldas.cs" />
     <Compile Include="Feladatok\NegyedikFeladat.cs" />
     <Compile Include="Feladatok\OtodikFeladat.cs" />
     <Compile Include="FileKezeles\FileBeolvas.cs" />
